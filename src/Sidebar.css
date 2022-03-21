@@ -1,0 +1,13 @@
+.sidebar{
+    flex: 0.2;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar > hr{
+    margin: 20px 0;
+    border: 1px solid #2e2b3f;
+    color: #dbd5ff;
+}

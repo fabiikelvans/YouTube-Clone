@@ -1,0 +1,44 @@
+.channel__row{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.channel__row-text{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.channel__row-text > p{
+    color: #acacac;
+    font-size: 14px !important;
+}
+
+.channel__row-subs{
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.channel__row-logo{
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+}
+
+.channel__row-text > h4{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.channel__row-text > h4 > span{
+    padding-left: 10px;
+    color: #acacac;
+}
+
+.channel__row-text > h4 > span > .MuiSvgIcon-root{
+    font-size: 18px !important;
+
+}

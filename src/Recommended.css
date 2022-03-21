@@ -1,0 +1,39 @@
+.recommended{
+    flex: 0.8;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+
+.recommended .chips__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended .chip{
+    font-size: 14px;
+    padding: 2px 4px;
+}
+
+.recommended .chip:hover{
+    background-color: rgb(39, 37, 63);
+}
+
+.recommended .chip-select{
+    background-color: #fff;
+}
+
+.recommended .chip-select:hover{
+    background-color: rgb(212, 212, 212);
+
+}
+
+.recommended .chip-i{
+    border: 1px solid gray;
+    background-color: #22202e;
+    color: #fff;
+}
+
+.recommended__videos{
+    display: flex;
+    flex-wrap: wrap;
+}
